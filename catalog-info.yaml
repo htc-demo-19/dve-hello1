@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "dve-hello1"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-19"
+    "humanitec.com/appId": "dve-hello1"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
